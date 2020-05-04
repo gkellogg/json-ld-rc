@@ -26,7 +26,7 @@ jobs:
       with:
         commit_message: Update derived files
         branch: ${{ github.head_ref }}
-        file_pattern: *.ttl *.rdf *.jsonld
+        file_pattern: ./*.ttl ./*.rdf ./*.jsonld
         repository: .
         commit_user_name: Context Update Bot
         commit_user_email: gregg@greggkellogg.net
