@@ -1,7 +1,6 @@
 # This workflow builds alternate versions of the RDFa initial context
 # and the derived JSON-LD context.
 name: RDFa Initial Context publication
-author: Gregg Kellogg
 
 on: pull_request
 
